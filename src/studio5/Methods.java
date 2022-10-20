@@ -37,19 +37,25 @@ public class Methods {
 		// TODO: Draw the remaining rings of the bull's eye
 		// Blue ring with 3.0/4.0 the radius
 		// suggested rgb values: 0, 109, 219
+		StdDraw.setPenColor(0, 109, 219); //Pencolor set to blue
+		StdDraw.filledCircle(x, y, 3.0/4.0 * radius);
+		
 
 		
 
 		// Red ring with 1.0/2.0 the radius
 		// suggested rgb values: 146, 0, 0
-
+		StdDraw.setPenColor(146, 0, 0);
+		StdDraw.filledCircle(x, y, 1.0/2.0 * radius);
 		
 
 		// Yellow ring with 1.0/4.0 the radius
 		// suggested rgb values: 255, 255, 109
-
+		StdDraw.setPenColor(255, 255, 109);
+		StdDraw.filledCircle(x, y, 1.0/4.0 * radius);
 		
 	}
+	
 
 	/**
 	 * Return a new String which is the original source String with all occurrences
@@ -63,7 +69,20 @@ public class Methods {
 	 *         characters in the source String with the replacement String
 	 */
 	public static String substituteAll(String source, char target, String replacement) {
+		
+		public char[] toCharArray() {
+			
+		}
+		char[] sourceArray =  toCharArray(sourceArray);
+			
+		for (int i = 0; i < sourceArray.length; i++) {
+				
+				
+			}
+		}
+		
 		String result = "";
+		
 		// TODO: Finish this method
 		
 		return result;
