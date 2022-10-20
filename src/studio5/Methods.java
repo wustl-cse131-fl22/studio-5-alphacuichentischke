@@ -70,22 +70,16 @@ public class Methods {
 	 */
 	public static String substituteAll(String source, char target, String replacement) {
 		
-		public char[] toCharArray() {
-			
-		}
-		char[] sourceArray =  toCharArray(sourceArray);
-			
-		for (int i = 0; i < sourceArray.length; i++) {
-				
-				
-			}
-		}
-		
-		String result = "";
-		
 		// TODO: Finish this method
 		
+		
+		
 		return result;
+	}
+
+	private static Object sourceArray() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	/**
